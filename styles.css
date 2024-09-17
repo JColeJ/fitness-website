@@ -184,15 +184,20 @@ span {
 /* Services Section Code */
 
 .services {
-  background: var(--snd-bg-color);
+    background: var(--snd-bg-color);
+}
+
+.heading {
+  text-align: center;
+  font-size: 6.5rem;
 }
 
 .servies-content {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, auto));
-  align-items: center;
-  gap: 2.3rem;
-  margin-top: 4.1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    align-items: center;
+    gap: 2.3rem;
+    margin-top: 4.1rem;
 }
 
 .row {
@@ -211,6 +216,58 @@ span {
     margin-bottom: 1.4rem;
 }
 
+.row h4 {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.row:hover{
+  border: 1px solid var(--main-color);
+  transform: translateY(-5px) scale (1.04);
+  cursor: pointer;
+}
+
+/* About Section Code */
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-img img {
+  width: 50vw;
+  border: 2px solid var(--text-color);
+  border-radius: 1rem;
+  transition: 0.5s ease;
+}
+
+/* .about-img img:hover {
+  transform: scale(1.02);  
+  border: 2px solid var(--main-color);
+} */
+
+.about-content .heading {
+  text-align: center;
+  font-size: 6rem;
+}
+
+.about-content {
+  padding: 0 3rem;
+}
+
+.about-content h2 {
+  text-align: left;
+  line-height: 1.2;
+}
+
+.about-content p {
+  font-size: 1.6rem;
+  margin: 2rem 0 2rem;
+}
 /* box-sizing: border-box;
   margin: 0;
   padding: 0;
