@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="styles.css">
   <title>Ali K Website</title>
@@ -34,11 +35,11 @@
     <!-- Home Section Code -->
 
     <section class="home" id="home">
-      <div class="home-content">
+      <div class="home-content" data-aos="zoom-in">
 
         <h3>Build Your</h3>
         <h1>Dream Physique</h1>
-        <h3><span class ="multiple-text">Bodybuilding</span></h3>
+        <h3><span class ="multiple-text"></span></h3>
 
         <p>Regardless of what your goal is, you can undoubtedly achieve it with the correct mentality, and coaching.</p>
 
@@ -55,9 +56,9 @@
     <!-- Services Section Code -->
 
     <section class="services" id="services">
-      <h2 class="heading">Our <Span>Services</Span></h2>
+      <h2 class="heading" data-aos="zoom-in-down">Our <Span>Services</Span></h2>
 
-      <div class="services-content">
+      <div class="services-content" data-aos="zoom-in-up">
         <div class="row">
           <img src="images/Ali K red.png" alt="Ali K red">
 
@@ -92,7 +93,7 @@
       <div class="row">
         <img src="images/Ali K red.png" alt="Ali K red">
 
-        <h4>WeightLifting</h4>
+        <h4>Weight Lifting</h4>
       </div>
 
     </section>
@@ -100,11 +101,11 @@
     <!-- About Section Code -->
 
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" data-aos="zoom-in-down">
             <img src="images/Ali K red.png" alt="">
         </div>
 
-        <div class="about-content">
+        <div class="about-content" data-aos="zoom-in-up">
           <h2 class="heading">Why Choose Us?</h2>
 
           <p>Diverse membership base creates supportive and friendly atmosphere</p>
@@ -119,9 +120,9 @@
     <!-- Pricing Section -->
 
     <section class="plans" id="plans">
-      <h2 class="heading">Our <span>Plans</span></h2>
+      <h2 class="heading" data-aos="zoom-in-down">Our <span>Plans</span></h2>
 
-      <div class="plans-content">
+      <div class="plans-content" data-aos="zoom-in-up">
 
         <div class="box">
           <h3>BASIC PACKAGE</h3>
@@ -173,9 +174,9 @@
 
     <section class="review" id="review">
       <div class="review-box">
-        <h2 class="heading">Client <span>Reviews</span></h2>
+        <h2 class="heading" data-aos="zoom-in-down">Client <span>Reviews</span></h2>
 
-        <div class="wrapper">
+        <div class="wrapper" data-aos="zoom-in-up">
           <div class="review-item">
             <img src="images/Ali K red.png" alt="">
             <h2>Ayoub</h2>
@@ -236,7 +237,16 @@
       </p>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
 
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
 
